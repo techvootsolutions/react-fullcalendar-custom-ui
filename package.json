@@ -1,0 +1,59 @@
+{
+  "name": "@techvootsolutions/react-fullcalendar-custom-ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "dependencies": {
+    "@webpixels/css": "^1.2.6",
+    "bootstrap": "5.2.3",
+    "moment": "^2.30.1",
+    "npm": "^10.3.0",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^9.2.1",
+    "sass": "^1.69.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.0",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techvootsolutions/react-fullcalendar-custom-ui"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://github.com/techvootsolutions/react-fullcalendar-custom-ui#readme",
+  "bugs": {
+    "url": "https://github.com/techvootsolutions/react-fullcalendar-custom-ui/issues"
+  },
+  "keywords": [
+    "react",
+    "full calendar",
+    "calendar",
+    "custom design",
+    "calender week design",
+    "week view"
+  ]
+}

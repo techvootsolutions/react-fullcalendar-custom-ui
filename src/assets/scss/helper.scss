@@ -1,0 +1,74 @@
+
+.shadow-a {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1) !important;
+}
+
+.FullCalendarCustomStyle {
+    .fc {
+        &.fc-theme-standard {
+
+            .fc-view-harness {
+                overflow-x: auto;
+
+                .fc-view {
+                    min-width: 60rem;
+
+                    &.fc-dayGridMonth-view {
+                        .fc-daygrid-day-events {
+                            padding: 0 1rem;
+                        }
+
+                        .fc-day {
+                            &.fc-day-past {
+                                &:not(.fc-day-other) {
+                                    background: rgba(236, 242, 248, 0.2);
+                                }
+                            }
+                        }
+                    }
+
+                    &.fc-dayGridWeek-view {
+                        .fc-daygrid-day-events {
+                            padding: 16px 6px;
+
+                            .fc-daygrid-event-harness {
+                                &:not(:last-of-type) {
+                                    margin-bottom: 8px;
+                                }
+                            }
+                        }
+                    }
+
+                   
+                }
+            }
+
+
+            .fc-daygrid-day-top {
+                flex-direction: row;
+            }
+
+            .fc-day-other {
+                .fc-daygrid-day-top {
+                    opacity: 1;
+
+                    .fc-daygrid-day-number {
+                        color: #ced4db;
+                    }
+                }
+            }
+
+            .fc-daygrid-day-number {
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                font-weight: 700;
+                width: 100%;
+            }
+        }
+    }
+
+
+    .date-cell-min-height {
+        min-height: 7.5rem;
+    }
+}
+
